@@ -13,7 +13,7 @@ final class SearchView: UIView {
         let label = UILabel()
         label.text = "No matching results."
         label.font = .systemFont(ofSize: FontSizes.medium)
-        label.textColor = Colors.secondaryLabel
+        label.textColor = Colors.secondaryContent
         return label
     }()
 

@@ -10,7 +10,7 @@ final class SearchTextField: UIView {
 
     private lazy var background: UIView = {
         let view = UIView()
-        view.backgroundColor = Colors.textFieldBackground
+        view.backgroundColor = Colors.secondaryBackground
         view.layer.cornerRadius = Layout.cornerRadius
         return view
     }()

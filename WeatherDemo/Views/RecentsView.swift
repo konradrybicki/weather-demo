@@ -6,7 +6,7 @@ final class RecentsView: UIView {
         let label = UILabel()
         label.text = "No recent searches."
         label.font = .systemFont(ofSize: FontSizes.medium)
-        label.textColor = Colors.secondaryLabel
+        label.textColor = Colors.secondaryContent
         return label
     }()
 

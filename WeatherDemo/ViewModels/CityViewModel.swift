@@ -5,6 +5,10 @@ struct CityViewModel {
         self.model = model
     }
 
+    var cityId: Int {
+        model.id
+    }
+
     var displayName: String {
         if model.state.isEmpty {
             return model.name + ", " + model.country
